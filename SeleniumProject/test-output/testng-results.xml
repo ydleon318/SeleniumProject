@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23393" started-at="2017-03-25T07:52:10Z" finished-at="2017-03-25T07:52:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23393" started-at="2017-03-25T07:52:10Z" finished-at="2017-03-25T07:52:34Z">
+      <class name="testcases.Demo12">
+        <test-method status="PASS" signature="seuUp()[pri:0, instance:testcases.Demo12@4501b7af]" name="seuUp" is-config="true" duration-ms="12978" started-at="2017-03-25T15:52:10Z" finished-at="2017-03-25T15:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seuUp -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:testcases.Demo12@4501b7af]" name="Login" duration-ms="7020" started-at="2017-03-25T15:52:23Z" finished-at="2017-03-25T15:52:30Z">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+	at testcases.Demo12.Login(Demo12.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.NullPointerException
+	at utility.ReadExcelPOI.getAllMapTestData(ReadExcelPOI.java:172)
+	at utility.ReadExcelPOI.<clinit>(ReadExcelPOI.java:25)
+	... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Demo12@4501b7af]" name="tearDown" is-config="true" duration-ms="3381" started-at="2017-03-25T15:52:30Z" finished-at="2017-03-25T15:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Demo12 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
